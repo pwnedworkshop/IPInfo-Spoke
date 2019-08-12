@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test custom action.</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[{"name":"Run Once_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"10c67567-ac34-4280-8bcf-8ee5b0d93ca1.ip_address","label":"1➛IP address","reference_display":"IP address","type":"ip_address","base_type":"ip_address"},{"name":"10c67567-ac34-4280-8bcf-8ee5b0d93ca1.hostname","label":"1➛Hostname","reference_display":"Hostname","type":"string","base_type":"string"},{"name":"10c67567-ac34-4280-8bcf-8ee5b0d93ca1.city","label":"1➛City","reference_display":"City","type":"string","base_type":"string"},{"name":"10c67567-ac34-4280-8bcf-8ee5b0d93ca1.region","label":"1➛Region","reference_display":"Region","type":"string","base_type":"string"},{"name":"10c67567-ac34-4280-8bcf-8ee5b0d93ca1.country","label":"1➛Country","reference_display":"Country","type":"string","base_type":"string"},{"name":"10c67567-ac34-4280-8bcf-8ee5b0d93ca1.latitude","label":"1➛Latitude","reference_display":"Latitude","type":"string","base_type":"string"},{"name":"10c67567-ac34-4280-8bcf-8ee5b0d93ca1.longitude","label":"1➛Longitude","reference_display":"Longitude","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot>13cf88d8db13f300b659e1bb4b9619a8</latest_snapshot>
+        <master_snapshot>13cf88d8db13f300b659e1bb4b9619a8</master_snapshot>
+        <name>Get Geographic Data from IP</name>
+        <outputs/>
+        <remote_trigger_id>97cf88d8db13f300b659e1bb4b9619d7</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 12:14:30</sys_created_on>
+        <sys_id>559ea1ccdb5bb300b659e1bb4b96196f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Get Geographic Data from IP</sys_name>
+        <sys_package display_value="IPInfo Spoke" source="x_391234_ipinfo_sp">8f8ca54cdb5bb300b659e1bb4b961988</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">8f8ca54cdb5bb300b659e1bb4b961988</sys_scope>
+        <sys_update_name>sys_hub_flow_559ea1ccdb5bb300b659e1bb4b96196f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-12 00:41:56</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=559ea1ccdb5bb300b659e1bb4b96196f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=559ea1ccdb5bb300b659e1bb4b96196f"/>
+</record_update>
